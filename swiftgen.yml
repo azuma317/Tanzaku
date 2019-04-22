@@ -1,13 +1,17 @@
-strings:
-  paths: Clipy/Resources/en.lproj/Localizable.strings
-  templateName: structured-swift4
-  output: Clipy/Generated/LocalizedStrings.swift
 xcassets:
-  paths:
-   - Clipy/Resources/Images.xcassets
-  templateName: swift4
-  output: Clipy/Generated/AssetsImages.swift
-colors:
-  paths: Clipy/Resources/colors.txt
-  templateName: swift4
-  output: Clipy/Generated/Colors.swift
+  inputs:  Tanzaku/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Tanzaku/Generated/assets-images.swift
+strings:
+  inputs: Tanzaku/en.lproj/Main.strings
+  outputs:
+    - templateName: structured-swift4
+      output: Tanzaku/Generated/strings.swift
+ib:
+  inputs: Tanzaku/Base.lproj
+  outputs:
+    - templateName: scenes-swift4
+      output: Tanzaku/Generated/Scenes.swift
+    - templateName: segues-swift4
+      output: Tanzaku/Generated/Segues.swift

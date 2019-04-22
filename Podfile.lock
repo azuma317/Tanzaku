@@ -1,0 +1,53 @@
+PODS:
+  - BartyCrouch (3.13.0)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - Sparkle (1.21.3)
+  - SwiftGen (6.1.0)
+  - SwiftLint (0.31.0)
+
+DEPENDENCIES:
+  - BartyCrouch
+  - RealmSwift
+  - RxCocoa
+  - RxOptional
+  - RxSwift
+  - Sparkle
+  - SwiftGen
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BartyCrouch
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+    - Sparkle
+    - SwiftGen
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  BartyCrouch: 69e5e6ec67e77951dc1c22aa48abbf05d175b81c
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  Sparkle: 3f75576db8b0265adef36c43249d747f22d0b708
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+
+PODFILE CHECKSUM: 5a9e6de3874007a1109d326b031a96f365d73422
+
+COCOAPODS: 1.6.1
