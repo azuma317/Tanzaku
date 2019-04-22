@@ -74,6 +74,7 @@
 				752CC73A226E057800FA3B83 /* Frameworks */,
 				752CC73B226E057800FA3B83 /* Resources */,
 				752CC752226E071200FA3B83 /* Swiftlint */,
+				752CC753226E0D4D00FA3B83 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -147,6 +148,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint autocorrect --format\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		752CC753226E0D4D00FA3B83 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
